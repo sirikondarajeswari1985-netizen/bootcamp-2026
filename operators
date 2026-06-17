@@ -1,0 +1,58 @@
+# All Operators in Python
+a = 10
+b = 5
+# Arithmetic Operators
+print("Arithmetic Operators")
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Modulus:", a % b)
+print("Power:", a ** b)
+# Relational / Comparison Operators
+print("\nRelational Operators")
+print("a > b:", a > b)
+print("a < b:", a < b)
+print("a == b:", a == b)
+print("a != b:", a != b)
+print("a >= b:", a >= b)
+print("a <= b:", a <= b)
+# Logical Operators
+print("\nLogical Operators")
+x = True
+y = False
+print("x and y:", x and y)
+print("x or y:", x or y)
+print("not x:", not x)
+# Assignment Operators
+print("\nAssignment Operators")
+c = 10
+print("c =", c)
+c += 5
+print("c += 5:", c)
+c -= 3
+print("c -= 3:", c)
+c *= 2
+print("c *= 2:", c)
+c /= 4
+print("c /= 4:", c)
+# Bitwise Operators
+print("\nBitwise Operators")
+print("AND:", a & b)
+print("OR:", a | b)
+print("XOR:", a ^ b)
+print("Left Shift:", a << 1)
+print("Right Shift:", a >> 1)
+# Membership Operators
+print("\nMembership Operators")
+list1 = [1, 2, 3, 4]
+print("2 in list:", 2 in list1)
+print("5 not in list:", 5 not in list1)
+print("\nIdentity Operators")
+p = [1,2,3]
+q = p
+r = [1,2,3]
+print("p is q:", p is q)
+print("p is r:", p is r)
+print("p is not r:", p is not r)
