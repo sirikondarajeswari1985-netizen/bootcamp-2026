@@ -1,0 +1,16 @@
+# Creating a tuple
+student = ("Nikita", 20, "ECE", 85.5)
+
+# Display tuple
+print(student)
+
+# Access tuple elements
+print(student[0])   # Name
+print(student[2])   # Branch
+
+# Tuple length
+print(len(student))
+
+# Loop through tuple
+for item in student:
+    print(item)
