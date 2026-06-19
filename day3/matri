@@ -1,9 +1,12 @@
-list1 = [[10, 20, 30], [40, 50, 60], [70, 80, 90]]
-
-total = 0
-
-for i in list1:
-    for j in i:
-        total = total + j
-
-print("Addition =", total)
+#matrix addition
+m1 = [[1,2,3],[1,1,1]]
+m2 = [[4,5,6],[7,8,9]]
+m3 = []
+for i in range(len(m1)):
+    row = []
+    for j in range(len(m1[0])):
+        row.append(m1[i][j] + m2[i][j])
+    m3.append(row)
+print("Matrix Addition:")
+for row in m3:
+    print(row)
